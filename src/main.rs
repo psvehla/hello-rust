@@ -5,7 +5,7 @@ fn main() {
     println!("Hello, world!");
 
     let stdout = stdout();
-    let message = String::from("Hello fellow Rusaceans!");
+    let message = String::from("Hello fellow Rustaceans!");
     let width = message.chars().count();
 
     let mut writer = BufWriter::new(stdout.lock());
